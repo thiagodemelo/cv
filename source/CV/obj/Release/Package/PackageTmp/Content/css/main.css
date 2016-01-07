@@ -1,0 +1,338 @@
+/*
+Modified by Matjaz Trontelj for Pinegrow Web Editor
+*/
+/* Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: Kelvin - Free Bootstrap 3 Resume Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ */
+body {
+  background-color: white;
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 16px;
+  color: #555;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  padding-top: 60px;
+  padding-bottom: 0;
+}
+
+.certificado p a{
+    text-decoration:none;
+}
+
+.certificado p a:hover{
+    text-decoration: underline;
+}
+/* Titles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway";
+  font-weight: 300;
+  color: #333;
+}
+
+#DescriTitulo a{
+  color:white;
+
+}
+/* Paragraph & Typographic */
+p {
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+.centered {
+  text-align: center;
+}
+/* Links */
+a {
+  color: #2c3e50;
+  word-wrap: break-word;
+  text-decoration: underline;
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+a:hover,
+a:focus {
+  color: #3e5771;
+  outline: 0;
+}
+a:before,
+a:after {
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+/*---------------------------------------------------
+	3.1 Topbar
+---------------------------------------------------*/
+.section-topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+  overflow: visible;
+  font: normal 16px/24px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.section-topbar a {
+  color: #fff;
+}
+.topbar-inner {
+  background: #2f2f2f;
+  line-height: 0;
+  text-align: center;
+}
+/*
+	Top Bar
+
+	By default, top navigation bar uses "fixed" position
+*/
+.section-topbar ul.nav {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border-right: 1px solid #222;
+  zoom: 1;
+  *display: inline;
+}
+.section-topbar ul.nav > li {
+  display: block;
+  float: left;
+  padding: 0;
+}
+.section-topbar ul.nav a {
+  display: block;
+  font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  padding: 18px 20px 18px 20px;
+  border-left: 1px solid #222;
+}
+.section-topbar ul.nav a:hover {
+  background: #222;
+  text-decoration: none;
+  border-left: 1px solid #111;
+}
+.section-topbar ul.nav .active a {
+  background: #44bbaa;
+  border-left: 1px solid #111;
+}
+.section-topbar ul.nav .active a:hover,
+.section-topbar ul.nav .active a:focus {
+  background: #44bbaa;
+}
+.section-topbar i {
+  font-size: 25px;
+}
+ul.nav a {
+  text-decoration: none;
+}
+.navbar-centered {
+  background-color: #111;
+}
+.navbar {
+  background-color: #111;
+}
+.navbar .navbar-toggle {
+  padding: 14px 10px;
+}
+@media (min-width: 768px) {
+  .navbar-centered .navbar-nav {
+    float: none;
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .navbar .navbar-nav > li > a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+/*---------------------------------------------------
+	SECTION WRAPS
+---------------------------------------------------*/
+/* Header Wrap */
+.headerwrap {
+  background: url("../img/header-bg.jpg") no-repeat center top;
+  padding-top: 140px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 500px;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.header-full-height {
+  height: 100vh;
+  padding-top: 33vh;
+  max-height: 100vw;
+}
+.header-large-height {
+  min-height: 640px;
+  padding-top: 240px;
+}
+.headerwrap.caption-background > div > .row > div {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.headerwrap h1 {
+  font-size: 80px;
+  color: white;
+}
+.headerwrap h3 {
+  font-size: 20px;
+  color: white;
+}
+.headerwrap a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.headerwrap a:hover {
+  text-decoration: underline;
+}
+/* Intnro Wrap */
+.intro {
+  background: #2c3e50;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #ffffff;
+}
+.intro h2,
+p {
+  color: #ffffff;
+}
+.intro i {
+  color: #ffffff;
+  font-size: 20px;
+  padding-right: 8px;
+  vertical-align: middle;
+}
+.intro a {
+  color: #ffffff;
+}
+.intro a:hover {
+  text-decoration: underline;
+}
+.skillswrap {
+  background: #2c3e50;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: white;
+}
+.skillswrap h2,
+.skillswrap p {
+  color: white;
+}
+.footwrap {
+  background: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footwrap #contact p {
+  color: white;
+}
+.footwrap #contact h2 {
+  color: white;
+}
+.footwrap #contact t {
+  font-weight: 700;
+}
+.footwrap i {
+  padding-right: 8px;
+}
+.footwrap #contact a {
+  color: #6bebd1;
+}
+.footwrap #contact a:hover {
+  color: white;
+}
+.footwrap .social-icons a {
+  text-decoration: none;
+  color: #1abc9c;
+}
+.footwrap .social-icons a:hover {
+  text-decoration: none;
+  color: white;
+}
+/* Copyright Wrap */
+.copyright {
+  background: #222222;
+  padding-top: 15px;
+  text-align: right;
+  padding-bottom: 0;
+}
+.copyright p {
+  color: #b5b5b5;
+  font-size: 14px;
+}
+.copyright a {
+  color: #e1e1e1;
+  text-decoration: none;
+}
+.copyright a:hover {
+  color: white;
+  text-decoration: underline;
+}
+/* Global Values */
+.desc {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+h2 {
+  font-size: 14px;
+  margin-top: 7px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+.desc p {
+  color: #2f2f2f;
+}
+.desc t {
+  color: #3e5771;
+  font-weight: 700;
+}
+.desc imp {
+  padding: 6px;
+  color: white;
+  background: #3e5771;
+}
+.desc more {
+  color: #585858;
+}
+.bottom-divider {
+  border-bottom: 1px solid #ccc;
+}
+sm {
+  font-size: 12px;
+}
+.embed-responsive {
+  margin-bottom: 25px;
+}

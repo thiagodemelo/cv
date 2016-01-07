@@ -1,0 +1,93 @@
+﻿@{
+    Layout = "~/Views/Shared/_Erro.cshtml";
+    ViewBag.Title = "Não encontrado";
+}
+<!-- TOPO, COM O TÍTULO DA PÁGINA -->
+<header class="header-generico">
+
+    <div class="container">
+
+        <h1>
+            <img style="position:fixed;top:0;left:50%;width:60px;" src="~/Content/img/erro.png" />
+            Ops...
+        </h1>
+        <p class="lead">
+            Desculpe-nos.
+            Algo aconteceu de errado ao tentar acessar este conteúdo.
+        </p>
+
+    </div>
+
+</header>
+<!-- TOPO, COM O TÍTULO DA PÁGINA -->
+
+<section>
+
+    <div class="container">
+
+        <h1 style="margin-top: 0;">
+            A página solicitada não pôde ser encontrada
+        </h1>
+
+        <p class="lead">
+            Veja abaixo as possíveis causas para este acontecimento:
+        </p>
+
+        <div class="row">
+
+            <div class="col-sm-6 col-md-4">
+
+                <div class="thumbnail text-center">
+
+                    <h1>
+                        <i class="fa fa-fw fa-link"></i><br /><small>URL incorreta</small>
+                    </h1>
+
+                    <p class="lead">
+                        Talvez o link que te enviaram ou o link que você digitou
+                        esteja errado.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+
+                <div class="thumbnail text-center">
+
+                    <h1>
+                        <i class="fa fa-fw fa-globe"></i><br /><small>Página Inexistente</small>
+                    </h1>
+
+                    <p class="lead">
+                        A página que está tentando acessar talvez não exista.
+                    </p>
+
+                </div>
+
+            </div>
+
+            @*<div class="col-sm-6 col-md-4">
+
+                    <div class="thumbnail text-center">
+
+                        <h1>
+                            <i class="fa fa-fw fa-clock-o"></i><br /><small>Período Expirado</small>
+                        </h1>
+
+                        <p class="lead">
+                            Se tratando de uma promoção com vigência, a página
+                            é retirada do ar.
+                        </p>
+
+                    </div>
+
+                </div>*@
+
+        </div>
+    </div>
+</section>
+
+
+

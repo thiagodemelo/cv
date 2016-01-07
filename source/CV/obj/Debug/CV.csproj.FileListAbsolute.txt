@@ -1,0 +1,79 @@
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\bin\roslyn\csc.exe
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\bin\roslyn\System.Collections.Immutable.dll
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\bin\roslyn\vbc.exe
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\bin\roslyn\VBCSCompiler.exe
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\bin\roslyn\VBCSCompiler.exe.config
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\bin\CV.dll.config
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\bin\CV.dll
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\bin\CV.pdb
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\bin\Microsoft.Web.Infrastructure.dll
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\bin\System.Web.Helpers.dll
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\bin\System.Web.Mvc.dll
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\bin\System.Web.Razor.dll
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\bin\System.Web.Webpages.Deployment.dll
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\bin\System.Web.Webpages.dll
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\bin\System.Web.Webpages.Razor.dll
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\bin\System.Web.Razor.xml
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\bin\System.Web.Webpages.xml
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\bin\System.Web.Webpages.Deployment.xml
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\bin\System.Web.Webpages.Razor.xml
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\bin\System.Web.Helpers.xml
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\bin\System.Web.Mvc.xml
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\obj\Debug\CV.csprojResolveAssemblyReference.cache
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\obj\Debug\CV.dll
+c:\users\thiag\documents\visual studio 2015\Projects\CV\CV\obj\Debug\CV.pdb
+C:\Users\thiag\documents\visual studio 2015\Projects\cv\CV\bin\Antlr3.Runtime.dll
+C:\Users\thiag\documents\visual studio 2015\Projects\cv\CV\bin\Newtonsoft.Json.dll
+C:\Users\thiag\documents\visual studio 2015\Projects\cv\CV\bin\System.Web.Optimization.dll
+C:\Users\thiag\documents\visual studio 2015\Projects\cv\CV\bin\WebGrease.dll
+C:\Users\thiag\documents\visual studio 2015\Projects\cv\CV\bin\Antlr3.Runtime.pdb
+C:\Users\thiag\documents\visual studio 2015\Projects\cv\CV\bin\Newtonsoft.Json.xml
+C:\Users\thiag\documents\visual studio 2015\Projects\cv\CV\bin\System.Web.Optimization.xml
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\roslyn\csc.exe
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\roslyn\vbc.exe
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\roslyn\VBCSCompiler.exe
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\CV.dll.config
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\CV.dll
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\CV.pdb
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\Antlr3.Runtime.dll
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\Newtonsoft.Json.dll
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\System.Web.Helpers.dll
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\System.Web.Mvc.dll
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\System.Web.Optimization.dll
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\System.Web.Razor.dll
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\System.Web.Webpages.Deployment.dll
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\System.Web.Webpages.dll
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\System.Web.Webpages.Razor.dll
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\WebGrease.dll
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\Antlr3.Runtime.pdb
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\Newtonsoft.Json.xml
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\System.Web.Optimization.xml
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\System.Web.Razor.xml
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\System.Web.Webpages.xml
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\System.Web.Webpages.Deployment.xml
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\System.Web.Webpages.Razor.xml
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\System.Web.Helpers.xml
+C:\Users\thiag\Documents\GitHub\cv\source\CV\bin\System.Web.Mvc.xml
+C:\Users\thiag\Documents\GitHub\cv\source\CV\obj\Debug\CV.dll
+C:\Users\thiag\Documents\GitHub\cv\source\CV\obj\Debug\CV.pdb
