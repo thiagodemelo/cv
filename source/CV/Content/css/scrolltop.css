@@ -1,0 +1,28 @@
+﻿/* scroll to top */
+.scrollup{
+    position:fixed;
+	bottom:0px;
+    right:20px;
+	background: #222;
+
+    margin-top:3%;padding:1em;color:#fff;box-sizing:border-box;background-color:rgba(0,0,0,0.25);
+	
+}
+
+a.scrollup {
+	outline:0;
+	text-align: center;
+}
+
+a.scrollup:hover,a.scrollup:active,a.scrollup:focus {
+	opacity:1;
+	text-decoration:none;
+}
+a.scrollup i {
+	margin-top: 10px;
+	color: #fff;
+}
+a.scrollup i:hover {
+	text-decoration:none;
+}
+

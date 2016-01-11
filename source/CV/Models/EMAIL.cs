@@ -8,19 +8,20 @@ using System.Net.Mail;
 using System.Text;
 using System.IO;
 using System.Reflection;
+using System.ComponentModel.DataAnnotations;
 
 namespace CV.MODELS
 {
-    public class MAIL
+    public class Email
     {
-        static MAIL instancia;
+        static Email instancia;
 
-        public static MAIL Instancia
+        public static Email Instancia
         {
             get
             {
                 if (instancia == null)
-                    instancia = new MAIL();
+                    instancia = new Email();
                 return instancia;
             }
         }
@@ -53,6 +54,52 @@ namespace CV.MODELS
                 // System.Web.HttpContext.Current.Response.Redirect("erro.aspx?erro=" + rotina, false);
                 return (0);
             }
+        }
+
+        [Required]
+        private String assunto;
+        [Required]
+        private String mensagem;
+        [Required]
+        private List<String> Listadestinatario;
+
+
+
+        public Email()
+        {
+            assunto = "";
+            mensagem = "";
+            Listadestinatario = new List<String>();
+        }
+
+        public String getAssunto()
+        {
+            return assunto;
+        }
+
+        public void setAssunto(String assunto)
+        {
+            this.assunto = assunto;
+        }
+
+        public String getMensagem()
+        {
+            return mensagem;
+        }
+
+        public void setMensagem(String mensagem)
+        {
+            this.mensagem = mensagem;
+        }
+
+        public List<String> getDestinatario()
+        {
+            return Listadestinatario;
+        }
+
+        public void setDestinatario(String destinatario)
+        {
+            this.Listadestinatario.Add(destinatario);
         }
 
 

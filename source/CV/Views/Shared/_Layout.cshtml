@@ -3,10 +3,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Curriculo, Desenvolvedor Web, Thiago de melo lima,Thiago ,Desenvolvedor, Criar Site,Desenvolve Site, Desenvolve Sistema,Programador .NET,Programador ASP.NET, ASP.NET MVC 5">
+    <meta http-equiv="content-language" content="pt-br">
     <meta name="author" content="Thiago de Melo Lima">
-    <link rel="shortcut icon" href="Content/img/ico/favicon.png">
-    <title>CV - Thiago </title>
+    <meta name="keywords" content="criação de sites, web designer, desenvolvedor, designer gráfico, programador, freelancer, desenvolvimento, criação, otimização, seo, atualização, manutenção, sites, websites, web sites, blogs, portais, layout, original, sistemas web, hospedagem, front-end, back-end, marcas, logotipos, logomarcas, banners animados, e-commerce, lojas virtuais,curriculo, desenvolvedor web, thiago de melo lima,thiago,desenvolvedor, criar site,desenvolve site, desenvolve sistema,programador .NET,programador ASP.NET, ASP.NET MVC,mvc,asp,asp.net,c#,windows form,web forms">
+    <meta name="description" content="Aqui você encontra tudo sobre thiago de melo lima. curriculo, competencias, sobre, portifolio e contato.">
+    <meta name="reply-to" content="thiago@novatela.com.br">
+    <meta name="robots" content="index, follow"> 
+    <link rel="shortcut icon" href="~/Content/img/ico/favicon.png">
+    <title>Desenvolvedor Web</title>
     <!-- Bootstrap core CSS -->
     @*<link href="Content/css/bootstrap.min.css" rel="stylesheet">*@
     <!-- Custom styles for this template -->
@@ -17,28 +21,58 @@
       <script src="assets/js/html5shiv.js"></script>
       <script src="assets/js/respond.min.js"></script>
     <![endif]-->
+
     @Styles.Render("~/bundles/estilo")
 </head>
 <body data-spy="scroll" data-offset="50" data-target=".navbar">
+
+    <!--  Piwik -->
+    <script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="http://cluster-piwik.locaweb.com.br/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 2821]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+    </script>
+    <!-- End Piwik Code -->
+    @*@Scripts.Render("~/bundles/jquery")
+    @if (IsSectionDefined("scripts"))
+    {
+        @RenderSection("scripts", required: false)
+    }*@
     @Html.Partial("_MenuSuperior")
     @RenderBody()
    
     @Html.Partial("_Rodape")
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,700" rel="stylesheet" type="text/css">
-    @*<script src="Content/js/jquery.min.js"></script>
+    <script src="Content/js/jquery.min.js"></script>
     <script type="text/javascript" src="Content/js/smoothscroll.js"></script>
-    <script src="Content/js/Chart.js"></script>*@
+    <script src="Content/js/Chart.js"></script>
     
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    @*<script src="Content/js/bootstrap.min.js"></script>
-    <script src="Content/js/custom.js"></script>*@
-    @Scripts.Render("~/bundles/jquery")
-    @if (IsSectionDefined("scripts"))
-    {
-        @RenderSection("scripts", required: false)
-    }
+    <script src="Content/js/bootstrap.min.js"></script>
+    <script src="Content/js/custom.js"></script>
+    <script src="Content/js/valida.js"></script>
+    <a class="smoothScroll scrollup" href="#home" id="topo"><span class="glyphicon glyphicon-arrow-up"></span></a>
+
+
+    <script type="text/javascript">
+    //scroll to top
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
+        } else {
+            $('.scrollup').fadeOut();
+        }
+    });    
+    </script>
 </body>
 </html>

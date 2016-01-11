@@ -1,4 +1,59 @@
 ﻿
+
+<style>
+    /* --- contact form  ---- */
+    .campo {
+  width: 100%;
+  border: 1px solid #f5f5f5;
+  min-height: 40px;
+  padding-left:20px;
+  font-size:13px;
+  padding-right:20px;
+  margin-bottom:20px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+}
+#campo {
+border: 1px solid #f5f5f5;
+  width: 100%;
+  padding-left:20px;
+  padding-top:10px;
+  font-size:14px;
+  margin-bottom:20px;
+  padding-right:20px;
+  margin-top:10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+}
+
+form#contactform .validation {
+	font-size:14px;
+    color:red;
+}
+
+#sendmessage {
+	border:1px solid #e6e6e6;
+	background:#222;
+	display:none;
+	text-align:center;
+	padding:15px 12px 15px 65px;
+	margin:10px 0;
+	font-weight:600;
+    margin-top:30px;
+	margin-bottom:30px;
+
+}
+
+#sendmessage.show,.show  {
+	display:block;
+}
+</style>
+
+
 <div class="footwrap">
     <div class="container" id="contact">
         <div class="row">
@@ -6,20 +61,71 @@
                 <h2>CONTATOS</h2>
             </div>
             <div class="col-md-6">
-                <p><t>Email</t><br><a href="mailto:thiago_melo1993@hotmail.com">                        thiago_melo1993@hotmail.com</a><br></p>
-                @*<p><t>Endereço</t><br>Rua Demas Zitto, 456                                                                          <br>São Paulo, SP.                                            <br></p>*@
-                <p><t>Telefone</t><br>+55 (011) 98761-2819                                                    <br></p>
-            </div>
+                <h2>Entre em contato através do preenchimento do <strong>formulário abaixo</strong></h2>
+                <form id="contactform" action="Contato/Enviar" method="post" class="validateform" name="send-contact">
+                    <div id="sendmessage">
+                        Sua mensagem foi enviada. Obrigado!
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 field">
+                            <div class="validation">
+                            </div>
+                            <input type="text" name="name" class="campo" placeholder="* Digite seu Nome Completo" data-rule="maxlen:4" data-msg="Insira seu nome completo" />
+                        </div>
+                        <div class="col-lg-6 field">
+                            <div class="validation">
+                            </div>
+                            <input type="tel" name="telefone" class="campo" placeholder="* Digite o número de seu telefone" data-rule="maxlen:11" data-msg="Digite um telefone ou celular" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 field">
+                            <div class="validation">
+                            </div>
+                            <input type="email" name="email" class="campo" placeholder="* Digite seu Email" data-rule="email" data-msg="Por favor, informe um email válido" />
+                        </div>
+                        <div class="col-lg-4 field">
+                            <div class="validation">
+                            </div>
+                            <input type="text" name="subject" class="campo" placeholder="* Digite o Assunto" data-rule="maxlen:4" data-msg="infome o motivo do seu contato" />
+                        </div>
+                        <div class="col-lg-4 field">
+                            <div class="validation">
+                            </div>
+                            <input type="checkbox" name="newsletter" value="1" checked> Deseja receber a newsletter.
+                        </div>
+
+                        <div class="col-lg-12 field">
+                            <textarea rows="12" name="message" id="campo" class="input-block-level" placeholder="* Digite sua mensagem aqui ..." data-rule="required" data-msg="Por favor, escreva algo."></textarea>
+                            <div class="validation">
+                            </div>
+                            <p> 
+                                <button class="btn btn-default btn-lg" type="submit">Enviar Mensagem</button>
+                                @*<span class="pull-right">* Por favor, preencha todos os campos obrigatórios do formulário, obrigado!</span>*@
+                            </p>
+                        </div>
+                    </div>
+                </form>
+               </div>
             <div class="col-md-3">
-                <p><sm>SOCIAL LINKS</sm></p>
+                <p><sm>SIGA-ME</sm></p>
                 <p class="social-icons">
-                    <a target="_blank" href="https://twitter.com/Thiago_d_melo"><i class="icon-twitter"></i></a>
-                    <a target="_blank" href="https://www.facebook.com/thiago.demelolima"><i class="icon-facebook"></i></a>
-                    <a target="_blank" href="https://br.linkedin.com/in/thiagodmelo"><i class="icon-linkedin"></i></a>
-                </p>
+
+                    <a target="_blank" href="https://twitter.com/Thiago_d_melo"><img class="img-responsive" src="~/Content/img/icons/twitter.png" alt="Twitter"></a>
+                    <a target="_blank" href="https://www.facebook.com/thiago.demelolima"><img class="img-responsive" src="~/Content/img/icons/facebook.png" alt="facebook"></a>
+                    <a target="_blank" href="https://br.linkedin.com/in/thiagodmelo"><img class="img-responsive" src="~/Content/img/icons/linkedin.png" alt="linkedin"></a>
+                    <a target="_blank" href="https://www.instagram.com/thiago_roock/"><img class="img-responsive" src="~/Content/img/icons/instagram.png" alt="instagram"></a>
+                    @*<a target="_blank" href="https://twitter.com/Thiago_d_melo"><i class="icon-twitter .icon-5x"></i></a>
+            <a target="_blank" href="https://www.facebook.com/thiago.demelolima"><i class="icon-facebook"></i></a>
+            <a target="_blank" href="https://br.linkedin.com/in/thiagodmelo"><i class="icon-linkedin"></i></a>*@
+                <p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a style="text-decoration:none;color:white;" href="mailto:thiago_melo1993@hotmail.com">  thiago_melo1993@hotmail.com</a><br></p>
+                @*<p><t>Endereço</t><br>Rua Demas Zitto, 456                                                                          <br>São Paulo, SP.                                            <br></p>*@
+                <p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span><a style="text-decoration:none;color:white;" href="tel:01198761-2819"> +55 (011) 98761-2819 </a><br></p>
+                
             </div>
         </div>
         <!--/.row -->
     </div>
     <!--/.container -->
 </div>
+

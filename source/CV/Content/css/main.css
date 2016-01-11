@@ -275,8 +275,16 @@ p {
 }
 .footwrap .social-icons a {
   text-decoration: none;
-  color: #1abc9c;
+  color: white;
+
 }
+
+.social-icons img {
+  margin:0.4em 1.5em;
+  
+}
+
+
 .footwrap .social-icons a:hover {
   text-decoration: none;
   color: white;
